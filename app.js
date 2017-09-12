@@ -14,6 +14,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'src/views')));
 app.use(express.static(path.join(__dirname, 'bower_components')));
 
+<<<<<<< HEAD
 var urlencodedParser = bodyParser.urlencoded({ extended: false })
 /*
 app.post('/user', urlencodedParser, function (req, res) {
@@ -25,6 +26,7 @@ app.post('/user', urlencodedParser, function (req, res) {
 app.post('/insert', function(req, res){
   res.send("data inject is succesfull!!"+req.body.tree);  
 });
+
 
 
 
